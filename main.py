@@ -73,7 +73,7 @@ def group_scanning():
             global groups
             global groups_removed
 
-            print('ChannyKUN | Total Checking : {}  | Groups Valid : {} | Groups Removed : {} | R$ Earned : {} | by tut'.format(groups_scanned,groups_valid,groups_removed,robux))
+            print('RBXEngine | Total Checking : {}  | Groups Valid : {} | Groups Removed : {} | R$ Earned : {} | by meaty & tut'.format(groups_scanned,groups_valid,groups_removed,robux))
             groupID = random.randint(1,5901231)
 
             checking = requests.get('https://groups.roblox.com/v1/groups/{}'.format(groupID))
